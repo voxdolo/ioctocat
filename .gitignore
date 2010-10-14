@@ -8,3 +8,5 @@ build/
 !*.xcodeproj/project.pbxproj
 
 tags
+
+github-keys.js
