@@ -166,6 +166,182 @@
 		6FF09F861115AFB500925109 /* Diff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF09F851115AFB500925109 /* Diff.xib */; };
 		6FF651980F8A9DA200C20E2D /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FF651970F8A9DA200C20E2D /* Entitlements.plist */; };
 		6FF6EB2B0FA61110000679FA /* GHUsersParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6EB2A0FA61110000679FA /* GHUsersParserDelegate.m */; };
+		7C63A15B1267437B00D57EE3 /* UIAAutomationCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A15A1267437B00D57EE3 /* UIAAutomationCleaner.m */; };
+		7C63A17C126752B100D57EE3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7FEA90F7E2C8700E8D702 /* MainWindow.xib */; };
+		7C63A17D126752B100D57EE3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC39A0F7E52F000FCD26D /* Settings.bundle */; };
+		7C63A17E126752B100D57EE3 /* comment.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC5BE0F7E7F4600FCD26D /* comment.png */; };
+		7C63A17F126752B100D57EE3 /* create.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC5BF0F7E7F4600FCD26D /* create.png */; };
+		7C63A180126752B100D57EE3 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC5C00F7E7F4600FCD26D /* fork.png */; };
+		7C63A181126752B100D57EE3 /* merge.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC5C10F7E7F4600FCD26D /* merge.png */; };
+		7C63A182126752B100D57EE3 /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC5C20F7E7F4600FCD26D /* push.png */; };
+		7C63A183126752B100D57EE3 /* wiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC5C40F7E7F4600FCD26D /* wiki.png */; };
+		7C63A184126752B100D57EE3 /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC6430F7E8BDA00FCD26D /* watch.png */; };
+		7C63A185126752B100D57EE3 /* WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1DC6590F7E8D6900FCD26D /* WebView.xib */; };
+		7C63A186126752B100D57EE3 /* commit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE4D240F7FD48700451D6E /* commit.png */; };
+		7C63A187126752B100D57EE3 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE4D250F7FD48700451D6E /* delete.png */; };
+		7C63A188126752B100D57EE3 /* follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE4D260F7FD48700451D6E /* follow.png */; };
+		7C63A189126752B100D57EE3 /* gist.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE4D270F7FD48700451D6E /* gist.png */; };
+		7C63A18A126752B100D57EE3 /* member.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCE4DB60F7FE5C600451D6E /* member.png */; };
+		7C63A18B126752B100D57EE3 /* UserTableHeadBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC95F270F8908ED00FC0968 /* UserTableHeadBackground.png */; };
+		7C63A18C126752B100D57EE3 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FF651970F8A9DA200C20E2D /* Entitlements.plist */; };
+		7C63A18D126752B100D57EE3 /* User.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A40860F90B25F00427ED7 /* User.xib */; };
+		7C63A18E126752B100D57EE3 /* Repository.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A41780F90C42800427ED7 /* Repository.xib */; };
+		7C63A18F126752B100D57EE3 /* RepositoryTableHeadBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A427C0F90D66D00427ED7 /* RepositoryTableHeadBackground.png */; };
+		7C63A190126752B100D57EE3 /* issue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5653020F99CB52001B6703 /* issue.png */; };
+		7C63A191126752B100D57EE3 /* private.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5653040F99CB62001B6703 /* private.png */; };
+		7C63A192126752B100D57EE3 /* public.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5653050F99CB62001B6703 /* public.png */; };
+		7C63A193126752B100D57EE3 /* FeedEntryCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5653140F99DD75001B6703 /* FeedEntryCellBackground.png */; };
+		7C63A194126752B100D57EE3 /* FeedEntryDetailsHeadBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F72FB200F9B51FE0069F092 /* FeedEntryDetailsHeadBackground.png */; };
+		7C63A195126752B100D57EE3 /* FeedEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F74DD880FA76CCA00FD90AB /* FeedEntryCell.xib */; };
+		7C63A196126752B100D57EE3 /* FollowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD61A060FA7AB26008C751B /* FollowButton.png */; };
+		7C63A197126752B100D57EE3 /* UnfollowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD61A070FA7AB26008C751B /* UnfollowButton.png */; };
+		7C63A198126752B100D57EE3 /* UnwatchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD61A080FA7AB26008C751B /* UnwatchButton.png */; };
+		7C63A199126752B100D57EE3 /* WatchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD61A090FA7AB26008C751B /* WatchButton.png */; };
+		7C63A19A126752B100D57EE3 /* upvote.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1BCBE00FAC586800D66E02 /* upvote.png */; };
+		7C63A19B126752B100D57EE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1BCBE50FAC588800D66E02 /* Default.png */; };
+		7C63A19C126752B100D57EE3 /* IssueDetailsHeadBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F1BCC300FAC5C2C00D66E02 /* IssueDetailsHeadBackground.png */; };
+		7C63A19D126752B100D57EE3 /* Issues.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FED82990FACA2F000BE5C81 /* Issues.xib */; };
+		7C63A19E126752B100D57EE3 /* FeedEntry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA92AFC0FACD51A001B1D1D /* FeedEntry.xib */; };
+		7C63A19F126752B100D57EE3 /* Issue.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA92AFD0FACD51A001B1D1D /* Issue.xib */; };
+		7C63A1A0126752B100D57EE3 /* issues_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FA92B1A0FACD648001B1D1D /* issues_closed.png */; };
+		7C63A1A1126752B100D57EE3 /* issues_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FA92B1B0FACD648001B1D1D /* issues_open.png */; };
+		7C63A1A2126752B100D57EE3 /* MyFeeds.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA92B300FACD6EA001B1D1D /* MyFeeds.xib */; };
+		7C63A1A3126752B100D57EE3 /* IssueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA92B4D0FACD7ED001B1D1D /* IssueCell.xib */; };
+		7C63A1A4126752B100D57EE3 /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE91E180FAD088600749370 /* Login.xib */; };
+		7C63A1A5126752B100D57EE3 /* LoginBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE91E460FAD115300749370 /* LoginBackground.png */; };
+		7C63A1A6126752B100D57EE3 /* DefaultGravatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F358BF90FB1EA6F004D2828 /* DefaultGravatar.png */; };
+		7C63A1A7126752B100D57EE3 /* Overlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F358C050FB1EAE0004D2828 /* Overlay.xib */; };
+		7C63A1A8126752B100D57EE3 /* Search.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F358C060FB1EAE0004D2828 /* Search.xib */; };
+		7C63A1A9126752B100D57EE3 /* group.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F879A1B0FB60CB500EBD9BD /* group.png */; };
+		7C63A1AA126752B100D57EE3 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F879A1C0FB60CB500EBD9BD /* user.png */; };
+		7C63A1AB126752B100D57EE3 /* UserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F879A5A0FB611FD00EBD9BD /* UserCell.xib */; };
+		7C63A1AC126752B100D57EE3 /* Users.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F879A5B0FB611FD00EBD9BD /* Users.xib */; };
+		7C63A1AD126752B100D57EE3 /* UserCellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F879AB00FB6184500EBD9BD /* UserCellBackground.png */; };
+		7C63A1AE126752B100D57EE3 /* NetworkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CE686E80FB8C83100A3D625 /* NetworkCell.xib */; };
+		7C63A1AF126752B100D57EE3 /* feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDC63F0FC04D330024E498 /* feed.png */; };
+		7C63A1B0126752B100D57EE3 /* Feed.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCDC66B0FC04F180024E498 /* Feed.xib */; };
+		7C63A1B1126752B100D57EE3 /* Repositories.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F59BC930FC6C51800412597 /* Repositories.xib */; };
+		7C63A1B2126752B100D57EE3 /* Networks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0AEFB6100CAAE500FB323E /* Networks.xib */; };
+		7C63A1B3126752B100D57EE3 /* IssueForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0AEFC0100CF61500FB323E /* IssueForm.xib */; };
+		7C63A1B4126752B100D57EE3 /* IconOctocat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F9FE8B610663B4A00F86D5C /* IconOctocat.png */; };
+		7C63A1B5126752B100D57EE3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F9FE90110663ECD00F86D5C /* Icon.png */; };
+		7C63A1B6126752B100D57EE3 /* Commit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F797C7D1110E842007E5A8D /* Commit.xib */; };
+		7C63A1B7126752B100D57EE3 /* CommitHeadBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2C76AD1114E65A002665DA /* CommitHeadBackground.png */; };
+		7C63A1B8126752B100D57EE3 /* file_added.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2C76E81114EDEF002665DA /* file_added.png */; };
+		7C63A1B9126752B100D57EE3 /* file_modified.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2C76E91114EDEF002665DA /* file_modified.png */; };
+		7C63A1BA126752B100D57EE3 /* file_removed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2C76EA1114EDEF002665DA /* file_removed.png */; };
+		7C63A1BB126752B100D57EE3 /* file_renamed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F2C76EB1114EDEF002665DA /* file_renamed.png */; };
+		7C63A1BC126752B100D57EE3 /* Files.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2C77431114F6DE002665DA /* Files.xib */; };
+		7C63A1BD126752B100D57EE3 /* Diff.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FF09F851115AFB500925109 /* Diff.xib */; };
+		7C63A1BE126752B100D57EE3 /* format.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F593A031116179D004B70FB /* format.html */; };
+		7C63A1BF126752B100D57EE3 /* RefreshArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E9BC51119B6C000752560 /* RefreshArrow.png */; };
+		7C63A1C0126752B100D57EE3 /* TabBarFeeds.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E9C751119D43E00752560 /* TabBarFeeds.png */; };
+		7C63A1C1126752B100D57EE3 /* TabBarNetwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E9C761119D43E00752560 /* TabBarNetwork.png */; };
+		7C63A1C2126752B100D57EE3 /* ToolbarIssue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E9C7C1119D4AF00752560 /* ToolbarIssue.png */; };
+		7C63A1C3126752B100D57EE3 /* ToolbarUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5E9C7D1119D4AF00752560 /* ToolbarUser.png */; };
+		7C63A1C4126752B100D57EE3 /* ToolbarDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F200899111A12FF00623EC0 /* ToolbarDown.png */; };
+		7C63A1C5126752B100D57EE3 /* ToolbarUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F20089A111A12FF00623EC0 /* ToolbarUp.png */; };
+		7C63A1C6126752B100D57EE3 /* TabBarRepositories.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D8B111AD2E400FC4FE9 /* TabBarRepositories.png */; };
+		7C63A1C7126752B100D57EE3 /* ToolbarUsers.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D93111AD7D700FC4FE9 /* ToolbarUsers.png */; };
+		7C63A1C8126752B100D57EE3 /* ToolbarCompass.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D95111AD87700FC4FE9 /* ToolbarCompass.png */; };
+		7C63A1C9126752B100D57EE3 /* ToolbarUnwatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D97111ADA4F00FC4FE9 /* ToolbarUnwatch.png */; };
+		7C63A1CA126752B100D57EE3 /* ToolbarWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D98111ADA4F00FC4FE9 /* ToolbarWatch.png */; };
+		7C63A1CB126752B100D57EE3 /* ToolbarFavorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D9B111ADBA300FC4FE9 /* ToolbarFavorite.png */; };
+		7C63A1CC126752B100D57EE3 /* ToolbarRepository.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D9C111ADBA300FC4FE9 /* ToolbarRepository.png */; };
+		7C63A1CD126752B100D57EE3 /* TabBarInbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F316DA2111ADF2600FC4FE9 /* TabBarInbox.png */; };
+		7C63A1CE126752B100D57EE3 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE7D1C911562498004B4D68 /* CommentCell.xib */; };
+		7C63A1CF126752B100D57EE3 /* ToolbarCommit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0D3E911580DAF00511B7F /* ToolbarCommit.png */; };
+		7C63A1D0126752B100D57EE3 /* IssueComment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0D42B11581A5200511B7F /* IssueComment.xib */; };
+		7C63A1D1126752B100D57EE3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB75830120818D80025A18B /* Icon@2x.png */; };
+		7C63A1D2126752B100D57EE3 /* IconOctocat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB7583212081E1B0025A18B /* IconOctocat@2x.png */; };
+		7C63A1D3126752B100D57EE3 /* pull_request.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8E7DF3123C0E8B007E93E6 /* pull_request.png */; };
+		7C63A1D4126752B100D57EE3 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F15FAA3123E3EE600E56F92 /* download.png */; };
+		7C63A1D6126752B100D57EE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		7C63A1D7126752B100D57EE3 /* iOctocat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iOctocat.m */; };
+		7C63A1D8126752B100D57EE3 /* GHFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1DC4450F7E5A8A00FCD26D /* GHFeed.m */; };
+		7C63A1D9126752B100D57EE3 /* GHFeedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1DC4480F7E5AA000FCD26D /* GHFeedEntry.m */; };
+		7C63A1DA126752B100D57EE3 /* WebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1DC6730F7E8E1900FCD26D /* WebController.m */; };
+		7C63A1DB126752B100D57EE3 /* MyFeedsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCE4D870F7FE16A00451D6E /* MyFeedsController.m */; };
+		7C63A1DC126752B100D57EE3 /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35BD380F88B01900E978CD /* GHUser.m */; };
+		7C63A1DD126752B100D57EE3 /* GHRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35BD530F88B06200E978CD /* GHRepository.m */; };
+		7C63A1DE126752B100D57EE3 /* UserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC95F1E0F8905F500FC0968 /* UserController.m */; };
+		7C63A1DF126752B100D57EE3 /* LabeledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC9610B0F8935DC00FC0968 /* LabeledCell.m */; };
+		7C63A1E0126752B100D57EE3 /* GravatarLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCAF1650F895756005E1173 /* GravatarLoader.m */; };
+		7C63A1E1126752B100D57EE3 /* RepositoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A41740F90C38300427ED7 /* RepositoryController.m */; };
+		7C63A1E2126752B100D57EE3 /* TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A420D0F90CE0500427ED7 /* TextCell.m */; };
+		7C63A1E3126752B100D57EE3 /* RepositoriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5652E00F99C85C001B6703 /* RepositoriesController.m */; };
+		7C63A1E4126752B100D57EE3 /* GHReposParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC647280F9B165E00FE39F6 /* GHReposParserDelegate.m */; };
+		7C63A1E5126752B100D57EE3 /* FeedEntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F72FAE70F9B47730069F092 /* FeedEntryController.m */; };
+		7C63A1E6126752B100D57EE3 /* FeedEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F72FB2E0F9B53810069F092 /* FeedEntryCell.m */; };
+		7C63A1E7126752B100D57EE3 /* GHCommitsParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC465110F9D141D003A8E7B /* GHCommitsParserDelegate.m */; };
+		7C63A1E8126752B100D57EE3 /* GHCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC465160F9D1445003A8E7B /* GHCommit.m */; };
+		7C63A1E9126752B100D57EE3 /* GHResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F14B6490FA5F37500F74B4C /* GHResource.m */; };
+		7C63A1EA126752B100D57EE3 /* GHUsersParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF6EB2A0FA61110000679FA /* GHUsersParserDelegate.m */; };
+		7C63A1EB126752B100D57EE3 /* GHFeedParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD6172C0FA774E1008C751B /* GHFeedParserDelegate.m */; };
+		7C63A1EC126752B100D57EE3 /* GHIssuesParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A99E40FABCFC200A99483 /* GHIssuesParserDelegate.m */; };
+		7C63A1ED126752B100D57EE3 /* GHIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A99E70FABD01500A99483 /* GHIssue.m */; };
+		7C63A1EE126752B100D57EE3 /* GHIssues.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A9AE50FABDB0100A99483 /* GHIssues.m */; };
+		7C63A1EF126752B100D57EE3 /* IssueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A9EA20FABF1D900A99483 /* IssueCell.m */; };
+		7C63A1F0126752B100D57EE3 /* IssueController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6AA15E0FAC22B000A99483 /* IssueController.m */; };
+		7C63A1F1126752B100D57EE3 /* GHResourcesParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FED81B60FAC97A100BE5C81 /* GHResourcesParserDelegate.m */; };
+		7C63A1F2126752B100D57EE3 /* IssuesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FED82960FACA1E700BE5C81 /* IssuesController.m */; };
+		7C63A1F3126752B100D57EE3 /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FED83000FACB91000BE5C81 /* FeedController.m */; };
+		7C63A1F4126752B100D57EE3 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE91E4B0FAD13D500749370 /* LoginController.m */; };
+		7C63A1F5126752B100D57EE3 /* UsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53B4CF0FB0F20B00C3A8E0 /* UsersController.m */; };
+		7C63A1F6126752B100D57EE3 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53B4D60FB0F32600C3A8E0 /* UserCell.m */; };
+		7C63A1F7126752B100D57EE3 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9A880FB1887300FFABE9 /* SearchController.m */; };
+		7C63A1F8126752B100D57EE3 /* OverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9B500FB19AF800FFABE9 /* OverlayController.m */; };
+		7C63A1F9126752B100D57EE3 /* GHSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F358C5B0FB1EEC4004D2828 /* GHSearch.m */; };
+		7C63A1FA126752B100D57EE3 /* RepositoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB93A950FB2231E002B43AD /* RepositoryCell.m */; };
+		7C63A1FB126752B100D57EE3 /* GHUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F879AE70FB61C7A00EBD9BD /* GHUsers.m */; };
+		7C63A1FC126752B100D57EE3 /* GHNetworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE686720FB8C56700A3D625 /* GHNetworks.m */; };
+		7C63A1FD126752B100D57EE3 /* GHNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE686740FB8C56700A3D625 /* GHNetwork.m */; };
+		7C63A1FE126752B100D57EE3 /* GHNetworksParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE686780FB8C57500A3D625 /* GHNetworksParserDelegate.m */; };
+		7C63A1FF126752B100D57EE3 /* NetworksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6867B0FB8C58400A3D625 /* NetworksController.m */; };
+		7C63A200126752B100D57EE3 /* NetworkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE6867E0FB8C59400A3D625 /* NetworkCell.m */; };
+		7C63A201126752B100D57EE3 /* GHRepositories.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDC15200FC6BCA700089FB5 /* GHRepositories.m */; };
+		7C63A202126752B100D57EE3 /* Archiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE931D50FC72444008545A2 /* Archiver.m */; };
+		7C63A203126752B100D57EE3 /* IssueFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0AEFBC100CF5DB00FB323E /* IssueFormController.m */; };
+		7C63A204126752B100D57EE3 /* GHBranches.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BEB3F11108C9E00E95E5A /* GHBranches.m */; };
+		7C63A205126752B100D57EE3 /* GHBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BEB57111090D300E95E5A /* GHBranch.m */; };
+		7C63A206126752B100D57EE3 /* BranchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0BEB7E111098A000E95E5A /* BranchCell.m */; };
+		7C63A207126752B100D57EE3 /* CommitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F797C5C1110E2BE007E5A8D /* CommitController.m */; };
+		7C63A208126752B100D57EE3 /* FilesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C77281114F430002665DA /* FilesController.m */; };
+		7C63A209126752B100D57EE3 /* FilesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF09E64111589D600925109 /* FilesCell.m */; };
+		7C63A20A126752B100D57EE3 /* DiffController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF09F811115AF7800925109 /* DiffController.m */; };
+		7C63A20B126752B100D57EE3 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9A991119A96000752560 /* CDataScanner_Extensions.m */; };
+		7C63A20C126752B100D57EE3 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9A9B1119A96000752560 /* NSCharacterSet_Extensions.m */; };
+		7C63A20D126752B100D57EE3 /* NSDate+Nibware.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9A9D1119A96000752560 /* NSDate+Nibware.m */; };
+		7C63A20E126752B100D57EE3 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9A9F1119A96000752560 /* NSDictionary_JSONExtensions.m */; };
+		7C63A20F126752B100D57EE3 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AA11119A96000752560 /* NSScanner_Extensions.m */; };
+		7C63A210126752B100D57EE3 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AAD1119A96000752560 /* CDataScanner.m */; };
+		7C63A211126752B100D57EE3 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AAF1119A96000752560 /* EGORefreshTableHeaderView.m */; };
+		7C63A212126752B100D57EE3 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AB21119A96000752560 /* CJSONDeserializer.m */; };
+		7C63A213126752B100D57EE3 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AB41119A96000752560 /* CJSONScanner.m */; };
+		7C63A214126752B100D57EE3 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AB61119A96000752560 /* CJSONSerializer.m */; };
+		7C63A215126752B100D57EE3 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5E9AB81119A96000752560 /* PullToRefreshTableViewController.m */; };
+		7C63A216126752B100D57EE3 /* GHIssueComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7D14511557E8C004B4D68 /* GHIssueComment.m */; };
+		7C63A217126752B100D57EE3 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7D1BD115622D1004B4D68 /* CommentCell.m */; };
+		7C63A218126752B100D57EE3 /* GHIssueComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7D2B411568951004B4D68 /* GHIssueComments.m */; };
+		7C63A219126752B100D57EE3 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7D3591156AE16004B4D68 /* NSString+Extensions.m */; };
+		7C63A21A126752B100D57EE3 /* IssueCommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0D429115819E400511B7F /* IssueCommentController.m */; };
+		7C63A21B126752B100D57EE3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F175211E316B3008B319F /* Reachability.m */; };
+		7C63A21C126752B100D57EE3 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F175611E316C5008B319F /* ASIAuthenticationDialog.m */; };
+		7C63A21D126752B100D57EE3 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F175911E316C5008B319F /* ASIDownloadCache.m */; };
+		7C63A21E126752B100D57EE3 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F175B11E316C5008B319F /* ASIFormDataRequest.m */; };
+		7C63A21F126752B100D57EE3 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F175D11E316C5008B319F /* ASIHTTPRequest.m */; };
+		7C63A220126752B100D57EE3 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F176111E316C5008B319F /* ASIInputStream.m */; };
+		7C63A221126752B100D57EE3 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6F176311E316C5008B319F /* ASINetworkQueue.m */; };
+		7C63A222126752B100D57EE3 /* UIAAutomationCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C63A15A1267437B00D57EE3 /* UIAAutomationCleaner.m */; };
+		7C63A224126752B100D57EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7C63A225126752B100D57EE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7C63A226126752B100D57EE3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFBCFB20FAB8A6300A2C37A /* CFNetwork.framework */; };
+		7C63A227126752B100D57EE3 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFBCFB60FAB8A6D00A2C37A /* libz.1.2.3.dylib */; };
+		7C63A228126752B100D57EE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5E9B621119AD2100752560 /* CoreGraphics.framework */; };
+		7C63A229126752B100D57EE3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5E9AFB1119AACC00752560 /* QuartzCore.framework */; };
+		7C63A22A126752B100D57EE3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5E9B011119AB1900752560 /* AudioToolbox.framework */; };
+		7C63A22B126752B100D57EE3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6F176F11E316F3008B319F /* SystemConfiguration.framework */; };
+		7C63A22C126752B100D57EE3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6F177311E316FE008B319F /* MobileCoreServices.framework */; };
 		8C53B4D00FB0F20B00C3A8E0 /* UsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53B4CF0FB0F20B00C3A8E0 /* UsersController.m */; };
 		8C53B4D70FB0F32600C3A8E0 /* UserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C53B4D60FB0F32600C3A8E0 /* UserCell.m */; };
 		8C6A99E50FABCFC200A99483 /* GHIssuesParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6A99E40FABCFC200A99483 /* GHIssuesParserDelegate.m */; };
@@ -417,6 +593,11 @@
 		6FF651970F8A9DA200C20E2D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		6FF6EB290FA61110000679FA /* GHUsersParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUsersParserDelegate.h; sourceTree = "<group>"; };
 		6FF6EB2A0FA61110000679FA /* GHUsersParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUsersParserDelegate.m; sourceTree = "<group>"; };
+		7C63A15A1267437B00D57EE3 /* UIAAutomationCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAAutomationCleaner.m; sourceTree = "<group>"; };
+		7C63A1721267516900D57EE3 /* iOctocatAutomationSuite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOctocatAutomationSuite-Info.plist"; sourceTree = "<group>"; };
+		7C63A233126752B100D57EE3 /* iOctocat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOctocat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C63A235126752B100D57EE3 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		7C63A23C126754D700D57EE3 /* UIAAutomationCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAAutomationCleaner.h; sourceTree = "<group>"; };
 		8C53B4CE0FB0F20B00C3A8E0 /* UsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersController.h; sourceTree = "<group>"; };
 		8C53B4CF0FB0F20B00C3A8E0 /* UsersController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersController.m; sourceTree = "<group>"; };
 		8C53B4D50FB0F32600C3A8E0 /* UserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCell.h; sourceTree = "<group>"; };
@@ -464,6 +645,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C63A223126752B100D57EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C63A224126752B100D57EE3 /* Foundation.framework in Frameworks */,
+				7C63A225126752B100D57EE3 /* UIKit.framework in Frameworks */,
+				7C63A226126752B100D57EE3 /* CFNetwork.framework in Frameworks */,
+				7C63A227126752B100D57EE3 /* libz.1.2.3.dylib in Frameworks */,
+				7C63A228126752B100D57EE3 /* CoreGraphics.framework in Frameworks */,
+				7C63A229126752B100D57EE3 /* QuartzCore.framework in Frameworks */,
+				7C63A22A126752B100D57EE3 /* AudioToolbox.framework in Frameworks */,
+				7C63A22B126752B100D57EE3 /* SystemConfiguration.framework in Frameworks */,
+				7C63A22C126752B100D57EE3 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -484,6 +681,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* iOctocat.app */,
+				7C63A233126752B100D57EE3 /* iOctocat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -497,6 +695,7 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				6F1DC39A0F7E52F000FCD26D /* Settings.bundle */,
+				7C63A1721267516900D57EE3 /* iOctocatAutomationSuite-Info.plist */,
 			);
 			comments = "Open Source iPhone app for the awesome GitHub.com";
 			name = CustomTemplate;
@@ -523,6 +722,7 @@
 				6F74DD8A0FA76CE000FD90AB /* MIT-LICENSE */,
 				6F74DD8B0FA76CE000FD90AB /* README.textile */,
 				6F593A031116179D004B70FB /* format.html */,
+				7C63A235126752B100D57EE3 /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -885,6 +1085,8 @@
 				6FE931D50FC72444008545A2 /* Archiver.m */,
 				6FCAF1640F895756005E1173 /* GravatarLoader.h */,
 				6FCAF1650F895756005E1173 /* GravatarLoader.m */,
+				7C63A23C126754D700D57EE3 /* UIAAutomationCleaner.h */,
+				7C63A15A1267437B00D57EE3 /* UIAAutomationCleaner.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -942,6 +1144,23 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* iOctocat.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7C63A17A126752B100D57EE3 /* iOctocatAutomationSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C63A22D126752B100D57EE3 /* Build configuration list for PBXNativeTarget "iOctocatAutomationSuite" */;
+			buildPhases = (
+				7C63A17B126752B100D57EE3 /* Resources */,
+				7C63A1D5126752B100D57EE3 /* Sources */,
+				7C63A223126752B100D57EE3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOctocatAutomationSuite;
+			productName = iOctocat;
+			productReference = 7C63A233126752B100D57EE3 /* iOctocat.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -963,6 +1182,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* iOctocat */,
+				7C63A17A126752B100D57EE3 /* iOctocatAutomationSuite */,
 			);
 		};
 /* End PBXProject section */
@@ -1064,6 +1284,102 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C63A17B126752B100D57EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C63A17C126752B100D57EE3 /* MainWindow.xib in Resources */,
+				7C63A17D126752B100D57EE3 /* Settings.bundle in Resources */,
+				7C63A17E126752B100D57EE3 /* comment.png in Resources */,
+				7C63A17F126752B100D57EE3 /* create.png in Resources */,
+				7C63A180126752B100D57EE3 /* fork.png in Resources */,
+				7C63A181126752B100D57EE3 /* merge.png in Resources */,
+				7C63A182126752B100D57EE3 /* push.png in Resources */,
+				7C63A183126752B100D57EE3 /* wiki.png in Resources */,
+				7C63A184126752B100D57EE3 /* watch.png in Resources */,
+				7C63A185126752B100D57EE3 /* WebView.xib in Resources */,
+				7C63A186126752B100D57EE3 /* commit.png in Resources */,
+				7C63A187126752B100D57EE3 /* delete.png in Resources */,
+				7C63A188126752B100D57EE3 /* follow.png in Resources */,
+				7C63A189126752B100D57EE3 /* gist.png in Resources */,
+				7C63A18A126752B100D57EE3 /* member.png in Resources */,
+				7C63A18B126752B100D57EE3 /* UserTableHeadBackground.png in Resources */,
+				7C63A18C126752B100D57EE3 /* Entitlements.plist in Resources */,
+				7C63A18D126752B100D57EE3 /* User.xib in Resources */,
+				7C63A18E126752B100D57EE3 /* Repository.xib in Resources */,
+				7C63A18F126752B100D57EE3 /* RepositoryTableHeadBackground.png in Resources */,
+				7C63A190126752B100D57EE3 /* issue.png in Resources */,
+				7C63A191126752B100D57EE3 /* private.png in Resources */,
+				7C63A192126752B100D57EE3 /* public.png in Resources */,
+				7C63A193126752B100D57EE3 /* FeedEntryCellBackground.png in Resources */,
+				7C63A194126752B100D57EE3 /* FeedEntryDetailsHeadBackground.png in Resources */,
+				7C63A195126752B100D57EE3 /* FeedEntryCell.xib in Resources */,
+				7C63A196126752B100D57EE3 /* FollowButton.png in Resources */,
+				7C63A197126752B100D57EE3 /* UnfollowButton.png in Resources */,
+				7C63A198126752B100D57EE3 /* UnwatchButton.png in Resources */,
+				7C63A199126752B100D57EE3 /* WatchButton.png in Resources */,
+				7C63A19A126752B100D57EE3 /* upvote.png in Resources */,
+				7C63A19B126752B100D57EE3 /* Default.png in Resources */,
+				7C63A19C126752B100D57EE3 /* IssueDetailsHeadBackground.png in Resources */,
+				7C63A19D126752B100D57EE3 /* Issues.xib in Resources */,
+				7C63A19E126752B100D57EE3 /* FeedEntry.xib in Resources */,
+				7C63A19F126752B100D57EE3 /* Issue.xib in Resources */,
+				7C63A1A0126752B100D57EE3 /* issues_closed.png in Resources */,
+				7C63A1A1126752B100D57EE3 /* issues_open.png in Resources */,
+				7C63A1A2126752B100D57EE3 /* MyFeeds.xib in Resources */,
+				7C63A1A3126752B100D57EE3 /* IssueCell.xib in Resources */,
+				7C63A1A4126752B100D57EE3 /* Login.xib in Resources */,
+				7C63A1A5126752B100D57EE3 /* LoginBackground.png in Resources */,
+				7C63A1A6126752B100D57EE3 /* DefaultGravatar.png in Resources */,
+				7C63A1A7126752B100D57EE3 /* Overlay.xib in Resources */,
+				7C63A1A8126752B100D57EE3 /* Search.xib in Resources */,
+				7C63A1A9126752B100D57EE3 /* group.png in Resources */,
+				7C63A1AA126752B100D57EE3 /* user.png in Resources */,
+				7C63A1AB126752B100D57EE3 /* UserCell.xib in Resources */,
+				7C63A1AC126752B100D57EE3 /* Users.xib in Resources */,
+				7C63A1AD126752B100D57EE3 /* UserCellBackground.png in Resources */,
+				7C63A1AE126752B100D57EE3 /* NetworkCell.xib in Resources */,
+				7C63A1AF126752B100D57EE3 /* feed.png in Resources */,
+				7C63A1B0126752B100D57EE3 /* Feed.xib in Resources */,
+				7C63A1B1126752B100D57EE3 /* Repositories.xib in Resources */,
+				7C63A1B2126752B100D57EE3 /* Networks.xib in Resources */,
+				7C63A1B3126752B100D57EE3 /* IssueForm.xib in Resources */,
+				7C63A1B4126752B100D57EE3 /* IconOctocat.png in Resources */,
+				7C63A1B5126752B100D57EE3 /* Icon.png in Resources */,
+				7C63A1B6126752B100D57EE3 /* Commit.xib in Resources */,
+				7C63A1B7126752B100D57EE3 /* CommitHeadBackground.png in Resources */,
+				7C63A1B8126752B100D57EE3 /* file_added.png in Resources */,
+				7C63A1B9126752B100D57EE3 /* file_modified.png in Resources */,
+				7C63A1BA126752B100D57EE3 /* file_removed.png in Resources */,
+				7C63A1BB126752B100D57EE3 /* file_renamed.png in Resources */,
+				7C63A1BC126752B100D57EE3 /* Files.xib in Resources */,
+				7C63A1BD126752B100D57EE3 /* Diff.xib in Resources */,
+				7C63A1BE126752B100D57EE3 /* format.html in Resources */,
+				7C63A1BF126752B100D57EE3 /* RefreshArrow.png in Resources */,
+				7C63A1C0126752B100D57EE3 /* TabBarFeeds.png in Resources */,
+				7C63A1C1126752B100D57EE3 /* TabBarNetwork.png in Resources */,
+				7C63A1C2126752B100D57EE3 /* ToolbarIssue.png in Resources */,
+				7C63A1C3126752B100D57EE3 /* ToolbarUser.png in Resources */,
+				7C63A1C4126752B100D57EE3 /* ToolbarDown.png in Resources */,
+				7C63A1C5126752B100D57EE3 /* ToolbarUp.png in Resources */,
+				7C63A1C6126752B100D57EE3 /* TabBarRepositories.png in Resources */,
+				7C63A1C7126752B100D57EE3 /* ToolbarUsers.png in Resources */,
+				7C63A1C8126752B100D57EE3 /* ToolbarCompass.png in Resources */,
+				7C63A1C9126752B100D57EE3 /* ToolbarUnwatch.png in Resources */,
+				7C63A1CA126752B100D57EE3 /* ToolbarWatch.png in Resources */,
+				7C63A1CB126752B100D57EE3 /* ToolbarFavorite.png in Resources */,
+				7C63A1CC126752B100D57EE3 /* ToolbarRepository.png in Resources */,
+				7C63A1CD126752B100D57EE3 /* TabBarInbox.png in Resources */,
+				7C63A1CE126752B100D57EE3 /* CommentCell.xib in Resources */,
+				7C63A1CF126752B100D57EE3 /* ToolbarCommit.png in Resources */,
+				7C63A1D0126752B100D57EE3 /* IssueComment.xib in Resources */,
+				7C63A1D1126752B100D57EE3 /* Icon@2x.png in Resources */,
+				7C63A1D2126752B100D57EE3 /* IconOctocat@2x.png in Resources */,
+				7C63A1D3126752B100D57EE3 /* pull_request.png in Resources */,
+				7C63A1D4126752B100D57EE3 /* download.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1147,6 +1463,91 @@
 				6F6F176811E316C5008B319F /* ASIHTTPRequest.m in Sources */,
 				6F6F176911E316C5008B319F /* ASIInputStream.m in Sources */,
 				6F6F176A11E316C5008B319F /* ASINetworkQueue.m in Sources */,
+				7C63A15B1267437B00D57EE3 /* UIAAutomationCleaner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C63A1D5126752B100D57EE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C63A1D6126752B100D57EE3 /* main.m in Sources */,
+				7C63A1D7126752B100D57EE3 /* iOctocat.m in Sources */,
+				7C63A1D8126752B100D57EE3 /* GHFeed.m in Sources */,
+				7C63A1D9126752B100D57EE3 /* GHFeedEntry.m in Sources */,
+				7C63A1DA126752B100D57EE3 /* WebController.m in Sources */,
+				7C63A1DB126752B100D57EE3 /* MyFeedsController.m in Sources */,
+				7C63A1DC126752B100D57EE3 /* GHUser.m in Sources */,
+				7C63A1DD126752B100D57EE3 /* GHRepository.m in Sources */,
+				7C63A1DE126752B100D57EE3 /* UserController.m in Sources */,
+				7C63A1DF126752B100D57EE3 /* LabeledCell.m in Sources */,
+				7C63A1E0126752B100D57EE3 /* GravatarLoader.m in Sources */,
+				7C63A1E1126752B100D57EE3 /* RepositoryController.m in Sources */,
+				7C63A1E2126752B100D57EE3 /* TextCell.m in Sources */,
+				7C63A1E3126752B100D57EE3 /* RepositoriesController.m in Sources */,
+				7C63A1E4126752B100D57EE3 /* GHReposParserDelegate.m in Sources */,
+				7C63A1E5126752B100D57EE3 /* FeedEntryController.m in Sources */,
+				7C63A1E6126752B100D57EE3 /* FeedEntryCell.m in Sources */,
+				7C63A1E7126752B100D57EE3 /* GHCommitsParserDelegate.m in Sources */,
+				7C63A1E8126752B100D57EE3 /* GHCommit.m in Sources */,
+				7C63A1E9126752B100D57EE3 /* GHResource.m in Sources */,
+				7C63A1EA126752B100D57EE3 /* GHUsersParserDelegate.m in Sources */,
+				7C63A1EB126752B100D57EE3 /* GHFeedParserDelegate.m in Sources */,
+				7C63A1EC126752B100D57EE3 /* GHIssuesParserDelegate.m in Sources */,
+				7C63A1ED126752B100D57EE3 /* GHIssue.m in Sources */,
+				7C63A1EE126752B100D57EE3 /* GHIssues.m in Sources */,
+				7C63A1EF126752B100D57EE3 /* IssueCell.m in Sources */,
+				7C63A1F0126752B100D57EE3 /* IssueController.m in Sources */,
+				7C63A1F1126752B100D57EE3 /* GHResourcesParserDelegate.m in Sources */,
+				7C63A1F2126752B100D57EE3 /* IssuesController.m in Sources */,
+				7C63A1F3126752B100D57EE3 /* FeedController.m in Sources */,
+				7C63A1F4126752B100D57EE3 /* LoginController.m in Sources */,
+				7C63A1F5126752B100D57EE3 /* UsersController.m in Sources */,
+				7C63A1F6126752B100D57EE3 /* UserCell.m in Sources */,
+				7C63A1F7126752B100D57EE3 /* SearchController.m in Sources */,
+				7C63A1F8126752B100D57EE3 /* OverlayController.m in Sources */,
+				7C63A1F9126752B100D57EE3 /* GHSearch.m in Sources */,
+				7C63A1FA126752B100D57EE3 /* RepositoryCell.m in Sources */,
+				7C63A1FB126752B100D57EE3 /* GHUsers.m in Sources */,
+				7C63A1FC126752B100D57EE3 /* GHNetworks.m in Sources */,
+				7C63A1FD126752B100D57EE3 /* GHNetwork.m in Sources */,
+				7C63A1FE126752B100D57EE3 /* GHNetworksParserDelegate.m in Sources */,
+				7C63A1FF126752B100D57EE3 /* NetworksController.m in Sources */,
+				7C63A200126752B100D57EE3 /* NetworkCell.m in Sources */,
+				7C63A201126752B100D57EE3 /* GHRepositories.m in Sources */,
+				7C63A202126752B100D57EE3 /* Archiver.m in Sources */,
+				7C63A203126752B100D57EE3 /* IssueFormController.m in Sources */,
+				7C63A204126752B100D57EE3 /* GHBranches.m in Sources */,
+				7C63A205126752B100D57EE3 /* GHBranch.m in Sources */,
+				7C63A206126752B100D57EE3 /* BranchCell.m in Sources */,
+				7C63A207126752B100D57EE3 /* CommitController.m in Sources */,
+				7C63A208126752B100D57EE3 /* FilesController.m in Sources */,
+				7C63A209126752B100D57EE3 /* FilesCell.m in Sources */,
+				7C63A20A126752B100D57EE3 /* DiffController.m in Sources */,
+				7C63A20B126752B100D57EE3 /* CDataScanner_Extensions.m in Sources */,
+				7C63A20C126752B100D57EE3 /* NSCharacterSet_Extensions.m in Sources */,
+				7C63A20D126752B100D57EE3 /* NSDate+Nibware.m in Sources */,
+				7C63A20E126752B100D57EE3 /* NSDictionary_JSONExtensions.m in Sources */,
+				7C63A20F126752B100D57EE3 /* NSScanner_Extensions.m in Sources */,
+				7C63A210126752B100D57EE3 /* CDataScanner.m in Sources */,
+				7C63A211126752B100D57EE3 /* EGORefreshTableHeaderView.m in Sources */,
+				7C63A212126752B100D57EE3 /* CJSONDeserializer.m in Sources */,
+				7C63A213126752B100D57EE3 /* CJSONScanner.m in Sources */,
+				7C63A214126752B100D57EE3 /* CJSONSerializer.m in Sources */,
+				7C63A215126752B100D57EE3 /* PullToRefreshTableViewController.m in Sources */,
+				7C63A216126752B100D57EE3 /* GHIssueComment.m in Sources */,
+				7C63A217126752B100D57EE3 /* CommentCell.m in Sources */,
+				7C63A218126752B100D57EE3 /* GHIssueComments.m in Sources */,
+				7C63A219126752B100D57EE3 /* NSString+Extensions.m in Sources */,
+				7C63A21A126752B100D57EE3 /* IssueCommentController.m in Sources */,
+				7C63A21B126752B100D57EE3 /* Reachability.m in Sources */,
+				7C63A21C126752B100D57EE3 /* ASIAuthenticationDialog.m in Sources */,
+				7C63A21D126752B100D57EE3 /* ASIDownloadCache.m in Sources */,
+				7C63A21E126752B100D57EE3 /* ASIFormDataRequest.m in Sources */,
+				7C63A21F126752B100D57EE3 /* ASIHTTPRequest.m in Sources */,
+				7C63A220126752B100D57EE3 /* ASIInputStream.m in Sources */,
+				7C63A221126752B100D57EE3 /* ASINetworkQueue.m in Sources */,
+				7C63A222126752B100D57EE3 /* UIAAutomationCleaner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1275,6 +1676,74 @@
 			};
 			name = Analyze;
 		};
+		7C63A22E126752B100D57EE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOctocat_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UIAAutomationRun=1",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "Info copy.plist";
+				PRODUCT_NAME = iOctocat;
+			};
+			name = Debug;
+		};
+		7C63A22F126752B100D57EE3 /* Analyze */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOctocat_Prefix.pch;
+				INFOPLIST_FILE = "Info copy.plist";
+				PRODUCT_NAME = iOctocat;
+			};
+			name = Analyze;
+		};
+		7C63A230126752B100D57EE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOctocat_Prefix.pch;
+				INFOPLIST_FILE = "Info copy.plist";
+				PRODUCT_NAME = iOctocat;
+			};
+			name = Release;
+		};
+		7C63A231126752B100D57EE3 /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOctocat_Prefix.pch;
+				INFOPLIST_FILE = "Info copy.plist";
+				PRODUCT_NAME = iOctocat;
+			};
+			name = "Ad Hoc Distribution";
+		};
+		7C63A232126752B100D57EE3 /* App Store Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOctocat_Prefix.pch;
+				INFOPLIST_FILE = "Info copy.plist";
+				PRODUCT_NAME = iOctocat;
+			};
+			name = "App Store Distribution";
+		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1324,6 +1793,18 @@
 				1D6058950D05DD3E006BFB54 /* Release */,
 				6FC806450FA868D1008D2DA6 /* Ad Hoc Distribution */,
 				6F77CD840F7E9DF2009A0213 /* App Store Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C63A22D126752B100D57EE3 /* Build configuration list for PBXNativeTarget "iOctocatAutomationSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C63A22E126752B100D57EE3 /* Debug */,
+				7C63A22F126752B100D57EE3 /* Analyze */,
+				7C63A230126752B100D57EE3 /* Release */,
+				7C63A231126752B100D57EE3 /* Ad Hoc Distribution */,
+				7C63A232126752B100D57EE3 /* App Store Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

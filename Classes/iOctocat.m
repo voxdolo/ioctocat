@@ -1,4 +1,5 @@
 #import "iOctocat.h"
+#import "UIAAutomationCleaner.h"
 #import "MyFeedsController.h"
 #import "SynthesizeSingleton.h"
 #import "NSString+Extensions.h"
@@ -24,6 +25,7 @@
 SYNTHESIZE_SINGLETON_FOR_CLASS(iOctocat);
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+  [UIAAutomationCleaner cleanse];
 	// Beware of zombies!
 	if(getenv("NSZombieEnabled") || getenv("NSAutoreleaseFreedObjectCheckEnabled")) {
 		JLog(@"NSZombieEnabled/NSAutoreleaseFreedObjectCheckEnabled enabled!");
